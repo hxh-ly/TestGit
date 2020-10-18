@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "查看启动日志",
+  "usingComponents": {
+    
+    "entryFunction":"../../component/scoreIcon/scoreIcon",
+    "textTrans":"../../component/textTrans/textTrans"},
+    "component":true
+}

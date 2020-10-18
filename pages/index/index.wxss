@@ -1,0 +1,89 @@
+
+
+.box_swpier{
+  margin: 0 1vw 3vh 1vw;
+}
+.slide-image{
+  margin: auto;
+  width: 94%;
+  height: 100%;
+  
+}
+.funtionContainer{
+  margin:4vh 0 ;
+  
+  border-radius: 10px;
+background: #537bf3;
+box-shadow:  5px 5px 17px #4262c2, 
+             -5px -5px 17px #6494ff;
+}
+.gird{
+  margin: 2vh 0;
+}
+.noticeBar{
+  width: 96vw;
+  height: 10vw;
+  margin: auto;
+  border-radius: 3px;
+background: #ffffff;
+box-shadow:  7px 7px 14px #4f5361, 
+             -7px -7px 14px #ffffff;
+}
+.indeedParent{
+  display: flex;
+  margin: 2vh 2vw;
+  justify-content: space-around;
+}
+
+.swiper-txt {
+  font-size: 30rpx;
+  color: #b0b0b0;
+  line-height: 88rpx;
+}
+/* 图片廊 */
+/* view.image {
+  margin-top: 2vh;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 0;
+} */
+
+/* view.desc {
+  padding-bottom: 2vh;
+  text-align: center;
+  background-color: black;
+} */
+.responsive{
+  overflow:hidden;
+margin: 3vh 4vw 6vh 4vw;
+border-radius: 10px;
+}
+.img{
+  position:relative
+}
+.box_img {
+  margin:  auto;
+  border-radius: 4px;
+}
+.img a image  {
+  
+}
+ .activity{
+  position: absolute;
+  bottom: 7vh;
+  color: #fff;
+  padding: 1vh 2vw 3vh 3vw;
+  font-size: 4vh;
+  opacity: 0.9;
+  
+}
+.desc{
+  padding: 2vh 4vw;
+  margin:  auto;
+background-color: rgb(0, 0, 0);
+opacity:0.8;
+color: rgb(255, 255, 255);
+}
+
+

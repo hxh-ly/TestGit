@@ -1,0 +1,11 @@
+<view class="indeedFunction">
+  <view class="circleContainer">
+    <view class="circle">
+      <image src="../../images/speech.png" class="circle_icon"></image>
+    </view>
+  </view>
+  <view class="scoreSearch">
+    <text class="textChild">讲座查询</text>
+    
+  </view>
+</view>

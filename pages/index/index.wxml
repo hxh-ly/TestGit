@@ -1,0 +1,56 @@
+<view class="box_swpier">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:22vh">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item style="margin:2vw ">
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<!-- <view class="funtionContainer">
+  <van-grid clickable column-num="4" gutter="2vw" custom-class="gird" border="false">
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/dashboard/index" text="办事大厅 " />
+    <van-grid-item icon="search" link-type="reLaunch" url="/pages/dashboard/index" text="学生系统 " />
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/dashboard/index" text="教务处 " border="false" />
+    <van-grid-item icon="search" link-type="reLaunch" url="/pages/dashboard/index" text="校务处 " />
+  </van-grid>
+</view> -->
+<view class="noticeBar">
+  <swiperText />
+</view>
+<view class="indeedParent">
+  <view class="socreBox">
+    <entryFunction />
+  </view>
+  <view class="socreBox">
+    <entrySpeech />
+  </view>
+</view>
+<van-tabs sticky color="#0067ee">
+  <van-tab title="通知">
+     <view class="responsive">
+      <view class="img">
+        <view class="box_img" bindtap="toDetail">
+            <image mode="widthFix" lazy-load="true" src="http://static.runoob.com/images/demo/demo1.jpg" width="300" height="180" />
+          
+
+        </view>
+       
+        <view class="activity">寻找秋天</view>
+        <view class="desc">时间：2020/01/01 上午9.00</view>
+      </view>
+    </view>
+    <view class="responsive">
+      <view class="img">
+        <view class="box_img" bindtap="toDetail"> 
+            <image mode="widthFix" lazy-load="true" src="http://static.runoob.com/images/demo/demo1.jpg" width="300" height="180" /> 
+        </view>
+        <view class="activity">秋天的第一杯奶茶</view>
+        <view class="desc">时间：2020/01/01 上午9.00</view>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="活动">内容 2</van-tab>
+  <van-tab title="讲座">内容 3</van-tab>
+  <van-tab title="比赛">内容 4</van-tab>
+</van-tabs>

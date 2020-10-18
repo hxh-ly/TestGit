@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "entryFunction": "../../component/scoreIcon/scoreIcon",
+    "entrySpeech":"../../component/speechIcon/speechIcon",
+    "swiperText":"../../component/textTrans/textTrans"
+  },
+  "component": true
+}

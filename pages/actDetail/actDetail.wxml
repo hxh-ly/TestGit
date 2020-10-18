@@ -1,0 +1,24 @@
+<view class="act_title">
+  <view class="img_box">
+    <image mode="aspectFit" lazy-load="true" src="http://static.runoob.com/images/demo/demo1.jpg" style="height:90px;width:120px" />
+  </view>
+  <view class="title_box">
+    <view class="title">助力创文，爱满潮州，旧衣环保志愿</view>
+    <view class="act_time">发布时间：2019-07-24</view>
+  </view>
+</view>
+<view class="list_cell">
+  <van-cell title="开始日期" icon="location-o" value="2019-07-01 " />
+  <van-cell title="开始时间" icon="location-o" value="14：30-16：30 " />
+  <van-cell title="地点" icon="location-o" value="大礼堂" />
+  <van-cell title="人数限制" icon="location-o" value="30人" />
+</view>
+<van-panel title="活动简介" use-footer-slot  status="详情">
+  <view >
+    协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）
+  </view>
+  <view slot="footer" class="participate">
+    <van-button size="normal">查询</van-button>
+    <van-button size="normal" type="danger">报名</van-button>
+  </view>
+</van-panel>
