@@ -1,6 +1,6 @@
 <view class="box_swpier">
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style="height:22vh">
-  <block wx:for="{{imgUrls}}">
+  <block wx:for="{{imgUrls}}" wx:key="item">
     <swiper-item style="margin:2vw ">
       <image src="{{item}}" class="slide-image" />
     </swiper-item>
@@ -28,29 +28,44 @@
 </view>
 <van-tabs sticky color="#0067ee">
   <van-tab title="通知">
+      <block wx:for="{{activity}}" wx:key="item">
      <view class="responsive">
       <view class="img">
         <view class="box_img" bindtap="toDetail">
-            <image mode="widthFix" lazy-load="true" src="http://static.runoob.com/images/demo/demo1.jpg" width="300" height="180" />
-          
-
+            <image mode="widthFix" lazy-load="true" src="{{item.aUrl}}" width="300" height="180" />
         </view>
-       
-        <view class="activity">寻找秋天</view>
-        <view class="desc">时间：2020/01/01 上午9.00</view>
+        <view class="activity">{{item.name}}</view>
+        <view class="desc">时间：{{item.date}} {{item.time}}</view>
       </view>
     </view>
-    <view class="responsive">
-      <view class="img">
-        <view class="box_img" bindtap="toDetail"> 
-            <image mode="widthFix" lazy-load="true" src="http://static.runoob.com/images/demo/demo1.jpg" width="300" height="180" /> 
-        </view>
-        <view class="activity">秋天的第一杯奶茶</view>
-        <view class="desc">时间：2020/01/01 上午9.00</view>
-      </view>
-    </view>
+    </block>
+   
   </van-tab>
-  <van-tab title="活动">内容 2</van-tab>
-  <van-tab title="讲座">内容 3</van-tab>
+  <van-tab title="活动">
+   <block wx:for="{{activity}}" wx:key="item">
+     <view class="responsive">
+      <view class="img">
+        <view class="box_img" bindtap="toDetail">
+            <image mode="widthFix" lazy-load="true" src="{{item.aUrl}}" width="300" height="180" />
+        </view>
+        <view class="activity">{{item.name}}</view>
+        <view class="desc">时间：{{item.date}} {{item.time}}</view>
+      </view>
+    </view>
+    </block>
+  </van-tab>
+  <van-tab title="讲座">
+   <block wx:for="{{speech}}" wx:key="item">
+     <view class="responsive">
+      <view class="img">
+        <view class="box_img" bindtap="toDetail">
+            <image mode="widthFix" lazy-load="true" src="{{item.aUrl}}" width="300" height="180" />
+        </view>
+        <view class="activity">{{item.name}}</view>
+        <view class="desc">时间：{{item.date}} {{item.time}}</view>
+      </view>
+    </view>
+    </block>
+  </van-tab>
   <van-tab title="比赛">内容 4</van-tab>
 </van-tabs>

@@ -1,0 +1,106 @@
+
+<view > 
+  <view class="headUser">
+<van-image
+  width="4rem"
+  height="4rem"
+  fit="contain"
+  round
+  class="userhead" src='{{avatarUrl}}'
+  style="margin:auto"
+  bindtap="login"
+/>
+      
+      <view class="headRight">
+        <view class="username">
+        {{nickName}} </view>
+      </view>
+</view>
+  
+<view class="body_1">
+  
+       <van-cell
+       icon="coupon"
+  is-link
+  title="我的信息"
+  link-type="navigateTo"
+  url="/pages/personInfo/personInfo"
+  size="large"
+/>
+<van-cell
+  icon="warning"
+  is-link
+  title="讲座记录"
+  link-type="navigateTo"
+  url="/pages/speechRecord/speechRecord"
+  size="large"
+/>
+ <van-cell
+       icon="gift"
+  is-link
+  title="学分统计"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/>
+<van-cell
+  icon="graphic"
+  is-link
+  title="行程"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/>
+
+  </view>
+
+  
+<view class="body_1"> 
+   <van-cell
+       icon="good-job"
+  is-link
+  title="评分"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/>
+<!-- <van-divider
+  
+  customStyle=" border-color: #888;width:90%;margin:auto "
+/> -->
+<van-cell
+  icon="setting"
+  is-link
+  title="设置"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/> 
+<!-- <van-divider
+  
+  customStyle=" border-color: #888;width:90%;margin:auto "
+/> -->
+<van-cell
+       icon="more"
+  is-link
+  title="关于"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/>
+<!-- <van-divider
+  
+  customStyle=" border-color: #888;width:90%;margin:auto "
+/> -->
+<van-cell
+  icon="comment"
+  is-link
+  title="联系我们"
+  link-type="navigateTo"
+  url="/pages/dashboard/index"
+  size="large"
+/>
+  
+  </view>
+ 
+</view>

@@ -104,7 +104,7 @@ image {
 
 .swiperitem {
   height: 100%;
-  margin-left: 3rem;
+  margin-left: 5rem;
 }
 
 .swiperview .wx-swiper-dots {

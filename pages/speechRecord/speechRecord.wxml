@@ -1,0 +1,14 @@
+<block wx:for="{{act_record}}">
+<view class="act_title" >
+  <view class="img_box">
+    <image mode="aspectFit" lazy-load="true" src="{{item.iUrl}}" style="height:90px;width:120px" />
+  </view>
+  <view class="title_box">
+    <view class="title">{{item.name}}</view>
+    <view class="act_time">日期: {{item.date}}--{{item.time}}</view>
+    <view class="act_time">学分：{{item.score}}</view>
+    <view wx:if="{{item.status}}" class="act_status"> <van-tag type="success" size="large">成功</van-tag>  </view>
+     <view wx:if="{{!item.status}}" class="act_status"> <van-tag type="danger" size="large">失败</van-tag>  </view>
+  </view>
+</view>
+</block>

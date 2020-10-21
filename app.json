@@ -2,7 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/actDetail/actDetail"
+    "pages/actDetail/actDetail",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/personInfo/personInfo",
+    "pages/speechRecord/speechRecord",
+    "pages/updateInfo/updateInfo"
   ],
   "tabBar": {
     "list": [
@@ -13,6 +18,10 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "日志"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
       }
     ]
   },
@@ -39,7 +48,9 @@
   "van-cell": "@vant/weapp/cell/index",
   "van-cell-group": "@vant/weapp/cell-group/index",
   "van-panel": "@vant/weapp/panel/index",
-  "van-button": "@vant/weapp/button/index"
+  "van-button": "@vant/weapp/button/index",
+  "van-field": "@vant/weapp/field/index",
+  "van-tag": "@vant/weapp/tag/index"
   
   }
 }

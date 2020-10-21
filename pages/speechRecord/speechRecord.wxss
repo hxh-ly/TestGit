@@ -1,0 +1,44 @@
+page{
+   background-color: rgb(240, 240, 240);
+}
+.act_title {
+  display: flex;
+  margin: 2vh 1vw 2vh;
+  background-color: white;
+  border: 1px solid white;
+  
+ }
+.img_box {
+  width: 35vw;
+  height: 16vh;
+  margin:0 0 0 3vw;
+}
+.act_status{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.title_box {
+  width: 55vw;
+  height: 19vh;
+position: relative;
+}
+
+.title_box .title {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  padding: 1vh;
+}
+
+.title_box .act_time {
+  width: 100%;
+  height: 20%;
+  margin: auto;
+  font-size: 2vh;
+  padding: 0 3vw
+}
+.participate{
+  display: flex;
+}

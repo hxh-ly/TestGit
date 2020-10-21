@@ -1,2 +1,12 @@
-<entryFunction/>
+<view class="indeedParent">
+  <view class="socreBox">
+    <entryFunction />
+  </view>
+  <view class="socreBox">
+    <entrySpeech />
+  </view>
+
+  <!-- <image mode="aspectFit" src="../../images/score.JPG" style="height:20vh ;marign:0 2vw" />
+  <image mode="aspectFit" src="../../images/speech.JPG"  style="height:20vh;marign:0 2vw"/> -->
+</view>
 <textTrans/>

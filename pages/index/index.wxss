@@ -32,7 +32,7 @@ box-shadow:  7px 7px 14px #4f5361,
 .indeedParent{
   display: flex;
   margin: 2vh 2vw;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .swiper-txt {

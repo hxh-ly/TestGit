@@ -6,3 +6,8 @@
 .log-item {
   margin: 10rpx;
 }
+.indeedParent{
+  display: flex;
+  margin: 2vh 2vw;
+  justify-content: space-between;
+}

@@ -12,6 +12,8 @@
   <van-cell title="开始时间" icon="location-o" value="14：30-16：30 " />
   <van-cell title="地点" icon="location-o" value="大礼堂" />
   <van-cell title="人数限制" icon="location-o" value="30人" />
+  <van-cell title="已报名人数" icon="location-o" value="1人" />
+   <van-cell title="学分" icon="location-o" value="0.4" />
 </view>
 <van-panel title="活动简介" use-footer-slot  status="详情">
   <view >
@@ -19,6 +21,6 @@
   </view>
   <view slot="footer" class="participate">
     <van-button size="normal">查询</van-button>
-    <van-button size="normal" type="danger">报名</van-button>
+    <van-button size="normal" type="danger" bindtap="signUp">报名</van-button>
   </view>
 </van-panel>

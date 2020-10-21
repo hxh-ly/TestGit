@@ -1,9 +1,9 @@
 <view class="contain">
 <view class='gundong-section'>
-    <image src="../../images/notice.png"></image>
+    <image src="../../images/notice.png" class="transImg"></image>
     <view class="swiperview swiper-position">
       <swiper class="swiperitem" indicator-dots="true" autoplay="{{autoplay}}" vertical="true" circular="true">
-        <block wx:for="{{rollData}}">
+        <block wx:for="{{rollData}}" wx:key="item">
           <swiper-item>
             <text class="swiper-txt">{{item}}</text>
           </swiper-item>

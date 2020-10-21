@@ -2,7 +2,8 @@
   "navigationBarTitleText": "查看启动日志",
   "usingComponents": {
     
-    "entryFunction":"../../component/scoreIcon/scoreIcon",
+    "entryFunction": "../../component/scoreIcon/scoreIcon",
+    "entrySpeech":"../../component/speechIcon/speechIcon",
     "textTrans":"../../component/textTrans/textTrans"},
     "component":true
 }

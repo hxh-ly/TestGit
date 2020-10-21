@@ -15,16 +15,45 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 1000,
-    photoUrl:[
-      'aa',
-      'bb',
-      'cc'
-    ],
-    noticeText:[
-      "11",
-      "22",
-      "33"
-    ]
+    //讲座
+    speech: [{
+      name: "寻找秋天",
+      date: "2020/01/01",
+      time: "上午9点",
+      aUrl: "http://static.runoob.com/images/demo/demo1.jpg"
+    }, {
+        name: "秋天第一杯奶茶",
+        date: "2020/01/01",
+        time: "上午9点",
+        aUrl: "http://static.runoob.com/images/demo/demo1.jpg"
+      }],
+    //活动
+  activity:[
+    {
+      name:"寻找秋天",
+      date:"2020/01/01",
+      time:"上午9点",
+      aUrl:"http://static.runoob.com/images/demo/demo1.jpg"
+    },{
+      name: "秋天第一杯奶茶",
+      date: "2020/01/01",
+      time: "上午9点",
+      aUrl: "http://static.runoob.com/images/demo/demo1.jpg"
+    }
+  ],
+  // 通知
+  inform:[
+    {
+
+    },
+    {}
+  ],
+  //比赛
+  race:[
+    { },
+    { }
+  ]
+
   },
   onChange(event) {
     wx.showToast({
@@ -90,8 +119,6 @@ Page({
   },
   // 跳转到活动详情页
   toDetail(){
-    console.log("11");
-    
     wx.navigateTo({
       //跳转页面的路径，可带参数 ，用?隔开，不同参数用&分隔；
       url:'../../pages/actDetail/actDetail',  

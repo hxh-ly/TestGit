@@ -1,0 +1,8 @@
+/* pages/personInfo/personInfo.wxss */
+page{
+   background-color: rgb(240, 240, 240);
+}
+.stuPic{
+  margin: auto;
+  font-size: 3vh;
+}
