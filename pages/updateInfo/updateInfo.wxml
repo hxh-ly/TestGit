@@ -1,4 +1,51 @@
+<form bindsubmit='formSubmit'>
 <van-cell-group>
-  <van-field value="{{ username }}" required clearable label="用户名" icon="question-o" placeholder="请输入用户名" bind:click-icon="onClickIcon" />
-  <van-field value="{{ password }}" type="password" label="密码" placeholder="请输入密码" required border="{{ false }}" />
+  <van-field
+    value="{{id}}"
+    label="学号"
+    type="id"
+    name="id"
+    placeholder="输入修改学号"
+    border="true"
+   
+  />
+  <van-field
+    value="{{name}}"
+    label="姓名"
+    type="name"
+    name="name"
+    placeholder="输入修改姓名"
+    border="true"
+    
+  />
+   <van-field
+    value="{{grade}}"
+    label="年级"
+    type="grade"
+    name="grade"
+    placeholder="输入修改年级"
+    border="true"
+    
+  />
+   <van-field
+    value="{{major}}"
+    label="专业"
+    type="major"
+    name="major"
+    placeholder="输入修改专业"
+    border="true"
+    
+  />
+   <van-field
+    value="{{sClass}}"
+    label="班级"
+    type="sClass"
+    name="sClass"
+    placeholder="输入修改班级"
+    border="true"
+    
+  />
 </van-cell-group>
+ 
+  <button form-type='submit' class="btn_update" type="primary">保存</button>
+</form>

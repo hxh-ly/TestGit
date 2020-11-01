@@ -10,3 +10,25 @@
   <image mode="aspectFit" src="../../images/speech.JPG"  style="height:20vh;marign:0 2vw"/> -->
 </view>
 <textTrans/>
+<van-button type="primary" bind:click="onClickShow">显示遮罩层</van-button>
+<van-overlay show="{{ show }}" bind:click="onClickHide">
+  <view class="wrapper">
+    <view class="block" catch:tap="noop" />
+  </view>
+</van-overlay>
+
+<button bindtap="changePop">显示弹出框</button>
+<van-popup
+  show="{{ show }}"
+  position="bottom"
+  round
+  custom-style="height: 40%;"
+  bind:close="onClose"
+>
+<van-picker columns="{{ columns }}" bind:change="onChange"
+bind:cancel="cancel"  bind:confirm="confirm"
+show-toolbar
+  title="学期"
+  default-index="{{ 5 }}"
+ />
+</van-popup>

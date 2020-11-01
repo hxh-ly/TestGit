@@ -1,6 +1,10 @@
 //app.js
 App({
   onLaunch: function () {
+    wx.cloud.init({
+      env: "cat-4fq6w"
+    })
+
     if (wx.getStorageSync('token')) {
       wx.switchTab({
           url: '../../pages/index/index'

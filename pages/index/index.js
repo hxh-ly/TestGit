@@ -55,11 +55,11 @@ Page({
   ]
 
   },
-  onChange(event) {
-    wx.showToast({
-      title: `切换到标签 ${event.detail.name}`,
-      icon: 'none',
-    });
+  //跳转到show学分
+  toShowScore(){
+    wx.navigateTo({
+      url: '../../pages/showScore/showScore',
+    })
   },
   
   /**

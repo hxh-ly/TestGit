@@ -20,7 +20,6 @@
     协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）协助中华慈善总会开展第一次直线爱心行动（旧衣收集）
   </view>
   <view slot="footer" class="participate">
-    <van-button size="normal">查询</van-button>
     <van-button size="normal" type="danger" bindtap="signUp">报名</van-button>
   </view>
 </van-panel>

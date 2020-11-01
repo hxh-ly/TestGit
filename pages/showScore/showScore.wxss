@@ -1,0 +1,39 @@
+/* pages/showScore/showScore.wxss */
+page{
+  background-color: #6094e6;
+  height: 100%;
+}
+.semester{
+  display: flex;
+  margin: 2vw;
+  flex-direction: row-reverse;
+
+}
+.grade_icon{
+  height: 13vw;
+  width: 14vw;
+  
+}
+.show_box{
+  width: 92vw;
+  height: 80%;
+  background-color: white;
+  margin: 8vh 4vw 4vh 4vw;
+  border-radius: 10rpx;
+  box-shadow: 5px 5px 6px #466ca8, 
+             -5px -5px 6px #7abcff;
+}
+#sem_title{
+  
+  width: 100%;
+  height: 10vh;
+  color: #6094e6;
+  font-size: 45rpx;
+  text-align: center;
+  padding: 1vh 0;
+  
+
+}
+.margin_line{
+  margin-bottom: 9px;
+}

@@ -19,7 +19,7 @@
   <swiperText />
 </view>
 <view class="indeedParent">
-  <view class="socreBox">
+  <view class="socreBox" bindtap="toShowScore">
     <entryFunction />
   </view>
   <view class="socreBox">

@@ -82,14 +82,30 @@ Page({
   },
   //报名
   signUp(){
-    wx.navigateTo({
-      //跳转页面的路径，可带参数 ，用?隔开，不同参数用&分隔；
-      url:'../../pages/actSignUp/actSignUp',  
-      success:function(){console.log("to SignUp");
-      }  ,      //成功后的回调；
-      fail:function(){}   ,       //失败后的回调；
-      complete:function(){}      //结束后的回调(成功，失败都执行)
-  })
+    
+    
+      wx.showToast({
+        title: '正在提交',
+        icon: "loading",
+        duration:2500,
+        success(res){
+        //提交到数据库
+        //提交成功显示
+         setTimeout(function(){
+           wx.showToast({
+             title: '成功',
+             icon: "success",
+             
+           })
+         },2000)
+        }
+      })
+    
+    //等待
+      
+        
+     
+    //显示提交成功
   }
   
 })

@@ -7,7 +7,8 @@
     "pages/login/login",
     "pages/personInfo/personInfo",
     "pages/speechRecord/speechRecord",
-    "pages/updateInfo/updateInfo"
+    "pages/updateInfo/updateInfo",
+    "pages/showScore/showScore"
   ],
   "tabBar": {
     "list": [
@@ -50,7 +51,11 @@
   "van-panel": "@vant/weapp/panel/index",
   "van-button": "@vant/weapp/button/index",
   "van-field": "@vant/weapp/field/index",
-  "van-tag": "@vant/weapp/tag/index"
+  "van-tag": "@vant/weapp/tag/index",
+  "van-picker": "@vant/weapp/picker/index",
+  "van-overlay": "@vant/weapp/overlay/index",
+  "van-popup": "@vant/weapp/popup/index",
+  "van-divider": "@vant/weapp/divider/index"
   
   }
 }

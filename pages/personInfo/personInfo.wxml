@@ -11,4 +11,4 @@
  <van-cell title="班级" value="{{stuInfo.class}}" size="large" />
  <van-cell title="单元格" value="内容" size="large" />
 </van-cell-group>
-<van-button type="primary" bindtap="updateInfo">添加修改信息</van-button>
+<van-button type="primary" bindtap="updateInfo" class="btn_update">添加修改信息</van-button>

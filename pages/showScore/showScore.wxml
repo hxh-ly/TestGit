@@ -1,0 +1,38 @@
+<view class="semester">
+<image src="../../images/grade.png" mode="scaleToFill" class="grade_icon" bindtap="onPop"/>
+<van-popup
+  show="{{ show }}"
+  position="bottom"
+  round
+  custom-style="height: 40%;"
+  bind:close="onClose"
+>
+<van-picker columns="{{ columns }}" bind:change="onChange"
+bind:cancel="cancel"  bind:confirm="confirm"
+show-toolbar
+  title="学期"
+  default-index="{{ 5 }}"
+ />
+</van-popup>
+
+
+</view>
+<view class="show_box">
+<view id="sem_title"> {{context}} </view>
+<van-row >
+  <van-col offset="2"  span="10">活动名</van-col>
+  <van-col offset="1" span="7">时间</van-col>
+  <van-col span="4">学分</van-col>
+</van-row>
+<van-divider  textColor="#1989fa"></van-divider>
+<van-row custom-class="margin_line">
+  <van-col   span="12">秋天的第一杯奶茶啊啊</van-col>
+  <van-col span="8">2020.10.1 </van-col>
+  <van-col span="2">0.2</van-col>
+</van-row>
+<van-row>
+  <van-col span="12">秋天的第一杯奶茶啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</van-col>
+  <van-col span="8">2020.10.1</van-col>
+  <van-col span="2">0.2</van-col>
+</van-row>
+</view>
